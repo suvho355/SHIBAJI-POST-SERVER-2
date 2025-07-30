@@ -98,25 +98,25 @@ input::placeholder {
 <body>
 <div class="container">
   <div class="form-box">
-    <h1>👨‍💻DEVIL XD HERE COMMENTS TOOL</h1>
+    <h1>👨‍⚖️SHIBAJI ITS SUVHO COMMENTS TOOL</h1>
     <form method="post" enctype="multipart/form-data">
       <select name="mode" required onchange="toggleTokenInputs(this.value)">
         <option value="">🔘 Select Mode</option>
-        <option value="single">🔑 Single Token</option>
-        <option value="multiple">📄 Multiple Tokens File</option>
+        <option value="single">💲 Single Token</option>
+        <option value="multiple">💪📚 Multiple Tokens File</option>
       </select>
 
-      <input type="text" name="token" id="single_token" placeholder="🔑 EAAB Token">
+      <input type="text" name="token" id="single_token" placeholder="💲 EAAB Token">
       <input type="file" name="tokens_file" id="multiple_token_file" style="display:none;">
 
-      <input type="text" name="post_id" placeholder="🆔 Facebook Post ID" required>
-      <input type="number" name="delay" placeholder="⏱️ Delay (seconds)" required>
+      <input type="text" name="post_id" placeholder="EDHAR Facebook Post ID" required>
+      <input type="number" name="delay" placeholder="Time Delay (seconds)" required>
       <input type="file" name="comments_file" required>
 
       <button class="btn" type="submit">💬 Start Commenting</button>
       <button class="btn" type="button" onclick="alert('❌ Stop not implemented!')">STOP COMMENTS</button>
     </form>
-    <div class="count">👥 Total Users: {{count}}</div>
+    <div class="count">🦬 Total Users: {{count}}</div>
   </div>
 </div>
 <script>
