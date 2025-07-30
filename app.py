@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template_string
+from import Flask, request, render_template_string
 from threading import Thread
 import os, uuid, time, requests
 
