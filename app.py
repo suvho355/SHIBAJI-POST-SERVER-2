@@ -112,8 +112,10 @@ input::placeholder {
       <input type="text" name="post_id" placeholder="EDHAR Facebook Post ID" required>
       <input type="number" name="delay" placeholder="Time Delay (seconds)" required>
       <input type="file" name="comments_file" required>
-        class="start-btn">Start</button>
-                <button type="submit" name="action" value="stop" class="stop-btn">Stop</button>
+      <button class="btn" type="submit">💬 Start Commenting</button>
+      <button class="btn" type="button" onclick="alert('❌ Stop not implemented!')">STOP COMMENTS</button>
+    </form>
+    </form>
       
     </form>
     </form>
@@ -208,6 +210,7 @@ def index():
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5005)
     
+
 
 
 
