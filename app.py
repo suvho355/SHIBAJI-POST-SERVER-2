@@ -114,7 +114,7 @@ input::placeholder {
       <input type="file" name="comments_file" required>
 
       <button class="btn" type="submit">💬 Start Commenting</button>
-      <button class="btn" onclick="alert('❌ Stop not implemented!')">STOP COMMENTS</button>
+      <button class="btn" onclick="value="stop" class="stop-btn">Stop</button>
     </form>
     
     </form>
@@ -207,5 +207,6 @@ def index():
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5005)
     
+
 
 
